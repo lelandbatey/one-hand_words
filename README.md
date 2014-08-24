@@ -47,3 +47,13 @@ Examples:
 	./one-hand_words.py dict.txt qwerasdf
 
 
+Dictionary File
+---------------
+
+This dictionary file is derived from the `aspell` package for Linux. Here are the commands I used to create them:
+
+    aspell -d en dump master | aspell -l en expand > my.dict
+    aspell dump master > master_dict.txt
+    cat master_dict.txt my.dict | sort -u > dict.txt
+
+As you can see, `dict.txt` is all the unique words found in both `master_dict.txt` and `my.dict`. Since it is the more complete, I recommend you use that one for whatever it is you are doing.
