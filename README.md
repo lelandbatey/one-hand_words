@@ -2,7 +2,7 @@ One-handed Words
 ================
 
 
-I've always been curious what words I could type using only my left or right hands. It'd be nice to be to have passwords I could lazily type using only one hand, or using only one sequence of letters. This program lets you find words you can type on one hand.
+I've always been curious what words I could type using only my left or right hands. It'd be nice to be able to have passwords I could lazily type using only one hand, or using only a set of letters. This program lets you find words you can type on one hand.
 
 
 Usage
